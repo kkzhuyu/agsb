@@ -448,20 +448,8 @@ echo "nameserver 1.1.1.1" > /etc/resolv.conf
 echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 ```
 
-## 作者信息
-
-- 作者: 康康
-- GitHub: https://github.com/zhumengkang/
-- YouTube: https://www.youtube.com/@康康的V2Ray与Clash
-- Telegram: https://t.me/+WibQp7Mww1k5MmZl
 
 ## 许可证
 
 本项目基于MIT许可证开源。
 
-## 支持与贡献
-
-如果您喜欢这个项目，请在GitHub上给我一个Star，或在YouTube上关注我的频道！
-如有问题或建议，欢迎通过GitHub Issues或Telegram群组联系我。
-## 赞助商
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
