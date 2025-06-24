@@ -451,5 +451,6 @@ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 
 ## 许可证
 
-本项目基于MIT许可证开源。
+本项目采用 [MIT License](LICENSE) 开源许可，详情请查阅 LICENSE 文件。
+
 
