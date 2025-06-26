@@ -64,7 +64,7 @@ def ensure_nginx_user():
                     '--system',           # 系统用户
                     '--no-create-home',   # 不创建家目录
                     '--shell', '/bin/false',  # 无登录shell
-                    '--comment', 'nginx web server',  # 注释
+                    '--comment', 'nginx web server',  # 
                     'nginx'
                 ], check=True, capture_output=True)
                 print("✅ nginx用户创建成功")
