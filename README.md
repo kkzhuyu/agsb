@@ -8,30 +8,30 @@
 
 ### 免费vps免root一键安装hysteria2
 ```bash
-cd ~ && curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/hysteria2-v1.py | python3 -
+cd ~ && curl -fsSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/hysteria2-v1.py | python3 -
 ```
 
 ### 免费vps免root一键安装vmess
 ```bash
-cd ~ && curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/agsb-v2.py | python3 - install --uuid b1ebd5fc-9170-45d4-9887-a39c9fc65298 --port 49999 --agk CF-token --domain 自己的域名
+cd ~ && curl -fsSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/agsb-v2.py | python3 - install --uuid b1ebd5fc-9170-45d4-9887-a39c9fc65298 --port 49999 --agk CF-token --domain 自己的域名
 ```
 
 ### 固定域名一键安装命令
 ```bash
-cd ~ && curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/agsb-v2.py | python3 - install --uuid b1ebd5fc-9170-45d4-9887-a39c9fc65298 --port 49999 --agk CF-token --domain 自己的域名
+cd ~ && curl -fsSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/agsb-v2.py | python3 - install --uuid b1ebd5fc-9170-45d4-9887-a39c9fc65298 --port 49999 --agk CF-token --domain 自己的域名
 ```
 或者
 ```bash
-cd ~ && wget https://raw.githubusercontent.com/zhumengkang/agsb/main/agsb.py && python3 agsb.py install --uuid 25bd7521-eed2-45a1-a50a-97e432552aca --port 49999 --agk CF-token --domain 自己的域名
+cd ~ && wget https://raw.githubusercontent.com/kkzhuyu/agsb/main/agsb.py && python3 agsb.py install --uuid 25bd7521-eed2-45a1-a50a-97e432552aca --port 49999 --agk CF-token --domain 自己的域名
 ```
 
 ### 一键安装命令
 ```bash
-cd ~ && wget https://raw.githubusercontent.com/zhumengkang/agsb/main/agsb.py && python3 agsb.py
+cd ~ && wget https://raw.githubusercontent.com/kkzhuyu/agsb/main/agsb.py && python3 agsb.py
 ```
 或者
 ```bash
-cd ~ && curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/agsb.py | python3 -
+cd ~ && curl -fsSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/agsb.py | python3 -
 ```
 
 ### 安装
@@ -145,19 +145,19 @@ pip install requests
 
 ```bash
 # 下载并运行（默认URL）
-curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py | python3 -
+curl -fsSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/cron-glitch.py | python3 -
 
 # 下载并指定URL运行
-curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py | python3 - -u https://your-project-name.glitch.me
+curl -fsSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/cron-glitch.py | python3 - -u https://your-project-name.glitch.me
 
 # 下载并指定URL和访问间隔
-curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py | python3 - --url https://your-project-name.glitch.me --interval 30-180
+curl -fsSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/cron-glitch.py | python3 - --url https://your-project-name.glitch.me --interval 30-180
 
 # 一键下载并在后台运行（默认URL）- 使用脚本内置后台功能
-curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py -o glitch.py && python3 glitch.py -b
+curl -fsSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/cron-glitch.py -o glitch.py && python3 glitch.py -b
 
 # 一键下载并在后台运行（指定URL）- 使用脚本内置后台功能
-curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py -o glitch.py && python3 glitch.py -b -u https://your-project-name.glitch.me
+curl -fsSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/cron-glitch.py -o glitch.py && python3 glitch.py -b -u https://your-project-name.glitch.me
 
 # 查看日志
 tail -f glitch.log
@@ -167,7 +167,7 @@ tail -f glitch.log
 
 ```bash
 # 下载脚本
-wget https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py -O glitch.py
+wget https://raw.githubusercontent.com/kkzhuyu/agsb/main/cron-glitch.py -O glitch.py
 
 # 运行脚本（默认URL）
 python3 glitch.py
@@ -179,10 +179,10 @@ python3 glitch.py -u https://your-project-name.glitch.me
 python3 glitch.py --url https://your-project-name.glitch.me --interval 30-180
 
 # 一键下载并在后台运行（默认URL）- 使用脚本内置后台功能
-wget https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py -O glitch.py && python3 glitch.py -b
+wget https://raw.githubusercontent.com/kkzhuyu/agsb/main/cron-glitch.py -O glitch.py && python3 glitch.py -b
 
 # 一键下载并在后台运行（指定URL）- 使用脚本内置后台功能
-wget https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py -O glitch.py && python3 glitch.py -b -u https://your-project-name.glitch.me
+wget https://raw.githubusercontent.com/kkzhuyu/agsb/main/cron-glitch.py -O glitch.py && python3 glitch.py -b -u https://your-project-name.glitch.me
 
 # 查看日志
 tail -f glitch.log
@@ -333,11 +333,11 @@ tail -f glitch.log
 ## 一键安装命令
 
 ```bash
-cd ~ && wget https://raw.githubusercontent.com/zhumengkang/agsb/main/root.sh && chmod +x root.sh && ./root.sh
+cd ~ && wget https://raw.githubusercontent.com/kkzhuyu/agsb/main/root.sh && chmod +x root.sh && ./root.sh
 ```
 ## curl一键安装命令Proot
 ```bash
-cd ~ && curl -sSL https://raw.githubusercontent.com/zhumengkang/agsb/main/root.sh -o root.sh && chmod +x root.sh && ./root.sh
+cd ~ && curl -sSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/root.sh -o root.sh && chmod +x root.sh && ./root.sh
 ```
 ## 基本命令
 
