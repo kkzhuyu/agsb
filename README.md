@@ -449,6 +449,14 @@ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 ```
 
 
+# Dante Socks5 自动安装
+
+一键交互式安装 Dante Socks5 代理。
+
+```bash
+bash <(curl -sSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/install_socks5.sh)
+
+
 ## 许可证
 
 本项目采用 [MIT License](LICENSE) 开源许可，详情请查阅 LICENSE 文件。
