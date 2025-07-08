@@ -454,7 +454,7 @@ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 一键交互式安装 Dante Socks5 代理。
 
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/install_socks5.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/install_socks5_menu.sh)
 
 
 ## 许可证
