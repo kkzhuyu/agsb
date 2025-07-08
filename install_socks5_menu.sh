@@ -1,5 +1,4 @@
-# 生成新的脚本内容，包含完整菜单结构并支持安装、卸载、启动/重启等功能
-script_content = """#!/bin/bash
+#!/bin/bash
 set -e
 
 CONFIG_FILE="/etc/danted.conf"
@@ -134,11 +133,3 @@ while true; do
     *) echo "无效选项，请重试" ;;
   esac
 done
-"""
-
-# 保存为文件
-file_path = "/mnt/data/install_socks5_menu.sh"
-with open(file_path, "w") as f:
-    f.write(script_content)
-
-file_path
