@@ -461,4 +461,10 @@ bash <(curl -sSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/install_soc
 本项目采用 [MIT License](LICENSE) 开源许可，详情请查阅 LICENSE 文件。
 
 
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+## 感谢
+
+[![Github Sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/bin456789)
+
+感谢以下商家提供白嫖机器
+
+[![DartNode](https://github.com/bin456789/reinstall/assets/7548515/435d6740-bcdd-4f3a-a196-2f60ae397f17)](https://dartnode.com/)
