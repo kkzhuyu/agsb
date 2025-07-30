@@ -456,11 +456,11 @@ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 ```bash
 bash <(curl -sSL https://raw.githubusercontent.com/kkzhuyu/agsb/main/install_socks5_menu.sh)
 
-######
-
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
 ## 许可证
 
 本项目采用 [MIT License](LICENSE) 开源许可，详情请查阅 LICENSE 文件。
 
+<a href="https://dartnode.com" title="Powered by DartNode - Free VPS for Open Source">
+  <img src="https://dartnode.com/branding/DN-Open-Source-sm.png" alt="Powered by DartNode" />
+</a>
 
